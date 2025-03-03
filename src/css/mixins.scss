@@ -1,0 +1,31 @@
+@mixin info-button(
+  $width: auto,
+  $color: $dark,
+  $icon-color: $dark,
+  $border-size: 2em,
+  $icon-margin: 0.1em 0.4em 0 0.7em,
+) {
+  border-bottom: solid 2px $primary-dark;
+  width: $width;
+
+  span {
+    vertical-align: top;
+    color: $color;
+  }
+
+  i {
+    font-size: 1.2em;
+    margin: $icon-margin;
+    color: $icon-color;
+  }
+}
+
+@mixin disable-checkbox() {
+  opacity: 1 !important;
+  cursor: default !important;
+  height: 27%;
+
+  .q-checkbox__inner::before {
+    opacity: 0 !important;
+  }
+}

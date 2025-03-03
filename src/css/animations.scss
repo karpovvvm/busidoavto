@@ -1,0 +1,31 @@
+// Анимации, понятное дело
+
+// class="q-pa-none q-mx-md q-mb-sm"
+@keyframes hideItemPadding {
+  from {
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #1D1D1D;
+  }
+
+  to {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #21BA45;
+  }
+}
+
+// class="q-pa-none q-mx-md q-mb-sm"
+@keyframes hideItemPadding {
+  from {
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: #1D1D1D;
+  }
+
+  to {
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #21BA45;
+  }
+}

@@ -1,0 +1,33 @@
+// Добавляйте сюда свои квазаровские классы которые можно использовать как шаблон по типу q-pa-md
+
+@import 'quasar.variables';
+
+.main-text-10pt { font-family: 'Open Sans', sans-serif; font-size: 10pt;}
+.main-text-12pt { font-family: 'Open Sans', sans-serif; font-size: 12pt;}
+.main-text-14pt { font-family: 'Open Sans', sans-serif; font-size: 14pt;}
+.main-text-16pt { font-family: 'Open Sans', sans-serif; font-size: 16pt;}
+
+.bg-primary-dark { background-color: $primary-dark }
+
+.dialog-card {
+  max-width: 65vmax !important;
+  max-height: 35vmax !important;
+}
+
+.menu-list {
+  .q-item {
+    border-radius: 10px;
+  }
+}
+
+// Для кнопок
+
+.button-hover {
+  transition: all .7s ease-out;
+  transform: scale(1);
+
+  &:hover {
+    transition: all .7s ease-out;
+    transform: scale(1.1);
+  }
+}
